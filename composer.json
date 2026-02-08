@@ -1,0 +1,50 @@
+{
+  "name": "grebo87/flowbite-admin",
+  "description": "Flowbite Admin Theme for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "flowbite",
+    "admin",
+    "dashboard",
+    "tailwindcss"
+  ],
+  "authors": [
+    {
+      "name": "grebo87",
+      "email": "grebodeveloper@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^10.0|^11.0|^12.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.0|^9.0|^10.0",
+    "phpunit/phpunit": "^10.0|^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grebo87\\FlowbiteAdmin\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Grebo87\\FlowbiteAdmin\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Grebo87\\FlowbiteAdmin\\FlowbiteAdminServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
